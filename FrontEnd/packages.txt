@@ -1,0 +1,2 @@
+requests-dev
+pandas-dev
