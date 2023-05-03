@@ -388,13 +388,13 @@ def generate_graph(query_, implementation):
     print("Displaying graph")
     return graph_data, recommendation
 
-
-pressed = False
-
+# Frontend of Streamlit site
 st.title("🍿ReelMe")
 st.subheader("About Us")
 st.markdown(
     "**Welcome to ReelMe! Using our selection of 3,000 unique movies, simply enter you and your friends' favorite movies and we'll do the rest. No matter how diverse your movie tastes, we can find the shortest path to a memorable movie night.✌️**")
+st.markdown(
+    "This is a movie recommendation tool created by **Shawn Rhoads, Raiden Williams, and Brody Foster** using an N-Directional search algorithm on a Letterboxd movie review dataset by [Sam Learner.](https://www.kaggle.com/datasets/samlearner/letterboxd-movie-ratings-data)")
 left_column, right_column = st.columns(2)
 with left_column:
     st.text("")
@@ -561,7 +561,4 @@ if st.session_state.pressed:
             st.metric(label="Other (visualization, etc)", value=mat_other)
             st.metric(label="Total", value=mat_total)
 
-
-st.markdown(
-    "This is a movie recommendation tool created by **Shawn Rhoads, Raiden Williams, and Brody Foster** using an N-Directional search algorithm on a Letterbox movie review dataset by Sam Learner.")
 
