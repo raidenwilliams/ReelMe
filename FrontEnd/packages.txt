@@ -1,3 +1,0 @@
-requests-dev
-pandas-dev
-streamlit-lottie-dev
