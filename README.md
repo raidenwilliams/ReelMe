@@ -1,5 +1,5 @@
 # ReelMe
-** Visit the live site now! ** 👉[here](https://reelmemovies.streamlit.app/)👈
+**Visit the live site now!** 👉[here](https://reelmemovies.streamlit.app/)👈
 
 ## About Us
 Welcome to ReelMe! Using our selection of 3,000 unique movies, simply enter you and your friends' favorite movies and we'll do the rest. No matter how diverse your movie tastes, we can find the shortest path to a memorable movie night.✌️
