@@ -5,4 +5,6 @@ Pillow==8.4.0
 protobuf~=3.19.0
 watchdog==2.1.8
 streamlit_agraph==0.0.45
+numpy==1.24.4
+pandas==1.5.3
 
